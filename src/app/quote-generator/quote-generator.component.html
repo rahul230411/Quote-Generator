@@ -1,0 +1,9 @@
+<!-- quote-generator.component.html -->
+
+<div class="container" [style.background-image]="backgroundImage">
+  <div class="quote-container" *ngIf="quote" [@fadeInOut]> <!-- Apply fadeInOut animation -->
+    <p class="quote-text">{{ quote }}</p>
+    <p class="author">- {{ author }}</p>
+  </div>
+  <button (click)="generateQuote()" [@buttonClick]="buttonState">Generate Quote</button> <!-- Apply buttonClick animation -->
+</div>

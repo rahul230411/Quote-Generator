@@ -1,18 +1,16 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+// app.module.ts
 
-import { AppRoutingModule } from './app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+
 import { AppComponent } from './app.component';
+import { QuoteGeneratorComponent } from './quote-generator/quote-generator.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, QuoteGeneratorComponent],
+  imports: [BrowserModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
