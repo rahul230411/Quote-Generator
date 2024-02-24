@@ -1,6 +1,3 @@
-
-Absolutely, here's the revised GitHub description with the mentioned technologies:
-
 Angular Quote Generator Program
 
 This Angular-based quote generator program offers users a delightful experience of discovering inspiring quotes paired with captivating background images. Leveraging Angular framework along with HTML, CSS, and JavaScript, this application delivers a seamless and interactive interface for users to explore and share meaningful quotes.
